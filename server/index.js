@@ -66,7 +66,8 @@ app.use(cors({
     process.env.CLIENT_URL,
     'http://localhost:3000',
     "https://medi-mantra-git-main-raktim-banerjees-projects.vercel.app/",
-    "https://vercel.com/raktim-banerjees-projects/medi-mantra", // Add your frontend domain
+    "https://vercel.com/raktim-banerjees-projects/medi-mantra", 
+    "https://medi-mantra-raktim-banerjees-projects.vercel.app/",// Add your frontend domain
   ],
   credentials: true
 }));
