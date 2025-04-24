@@ -64,7 +64,9 @@ app.use(cookieParser());
 app.use(cors({
   origin: [
     process.env.CLIENT_URL,
-    'http://localhost:3000', // Add your frontend domain
+    'http://localhost:3000',
+    "https://medi-mantra-git-main-raktim-banerjees-projects.vercel.app/",
+    "https://vercel.com/raktim-banerjees-projects/medi-mantra", // Add your frontend domain
   ],
   credentials: true
 }));
